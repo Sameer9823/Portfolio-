@@ -1,6 +1,7 @@
 import React from "react";
 import { words } from "../constants/index.js";  
 import Button from "../components/Button.jsx";
+import HeroExperience from "../components/HeroModels/heroExperience.jsx";
 
 function Hero() {
 
@@ -51,6 +52,11 @@ function Hero() {
           />
         </div>
       </header>
+      <figure>
+        <div className="hero-3d-layout">
+            <HeroExperience/>
+        </div>
+      </figure>
       </div>
     </section>
   );
