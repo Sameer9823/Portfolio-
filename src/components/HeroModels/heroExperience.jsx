@@ -4,6 +4,7 @@ import React, { use } from 'react'
 import { Room } from './Room'
 import { useMediaQuery } from 'react-responsive'
 import { HeroLight } from './HeroLight'
+import Particles from './Particles'
 
 
 //https://sketchfab.com/
@@ -25,6 +26,9 @@ function HeroExperience() {
         />
 
         <HeroLight/>
+        <Particles
+        count={100}
+        />
         <group
         scale={isMobile? 0.7 : 1}
         position={[0, -3.5, 0]}

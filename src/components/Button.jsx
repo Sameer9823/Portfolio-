@@ -4,10 +4,10 @@ const Button = ({ text, className, id }) => {
       onClick={(e) => {
         e.preventDefault();
 
-        const target = document.getElementById("counter"); // Find the section with ID "counter"
+        const target = document.getElementById("counter");
 
         if (target && id) {
-          const offset = window.innerHeight * 0.15; // Leave a bit of space at the top
+          const offset = window.innerHeight * 0.15; 
 
           const top =
             target.getBoundingClientRect().top + window.pageYOffset - offset;
@@ -15,7 +15,7 @@ const Button = ({ text, className, id }) => {
           window.scrollTo({ top, behavior: "smooth" });
         }
       }}
-      className={`${className ?? ""} cta-wrapper`} // Add base + extra class names
+      className={`${className ?? ""} cta-wrapper`} 
     >
       <div className="cta-button group">
         <div className="bg-circle" />
