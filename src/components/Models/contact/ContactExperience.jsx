@@ -1,7 +1,8 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { Computer } from "../Computer";
 
-import Computer from "./Computer";
+
 
 const ContactExperience = () => {
   return (

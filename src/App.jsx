@@ -8,6 +8,7 @@ import Exprience from './sections/Exprience'
 import TechStack from './sections/TechStack'
 import Testimonial from './sections/Testimonial'
 import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <TechStack/>
       <Testimonial/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
