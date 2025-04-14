@@ -37,7 +37,7 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/react1.svg",
   },
   {
     imgPath: "/images/logos/company-logo-2.png",
@@ -119,12 +119,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Python Developer",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -138,7 +138,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Full Stack Developer",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -148,43 +148,46 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+      "Sameer Selokar demonstrated exceptional skills in both frontend and backend development, playing a crucial role in building and optimizing full-stack applications. His dedication has greatly enhanced our project delivery and user experience.",
+    name: "Motovators Technologies Pvt. Ltd.", 
+    logoPath: "/images/M.png", 
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "May 2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Designed and implemented RESTful APIs and integrated them with MongoDB and Express.js.",
+      "Developed dynamic and responsive user interfaces using React.js and TailwindCSS.",
+      "Collaborated with cross-functional teams to deliver scalable, maintainable web applications.",
     ],
   },
+  
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "Sameer Selokar’s contributions as a Web Developer Intern have been exceptional. He approaches each challenge with a creative problem-solving mindset, ensuring smooth integration and delivering robust web solutions.",
+    name: "ICEICO Technologies Pvt Ltd", // update with the correct image path for Sameer
+    logoPath: "https://www.iceico.in/assets/img/Group%201.png", // update with the correct company logo path
+    title: "Web Developer Intern",
+    date: "July 2024 - December 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Assisted in the development of responsive and dynamic web applications using React.js and Node.js.",
+      "Collaborated with backend developers to ensure seamless API integration with the frontend.",
+      "Contributed to improving web application performance by optimizing both front-end and back-end code.",
     ],
   },
+  
+  {
+    review:
+      "Sameer Selokar’s work on our Next.js applications has been outstanding. His remote contributions significantly enhanced our web performance, delivering high-quality solutions that align with our product goals.",
+    name: "Knackline Bengaluru",
+    logoPath: "/images/kn.png", // update with the correct company logo path
+    title: "Full Stack Developer Intern (Remote)",
+    date: "July 2024 - October 2024",
+    responsibilities: [
+      "Developed scalable web applications using Next.js, focusing on server-side rendering and performance optimization.",
+      "Collaborated with the backend team to integrate RESTful APIs with the frontend and ensure smooth data handling.",
+      "Worked remotely with cross-functional teams to implement new features, fix bugs, and improve the overall user experience.",
+    ],
+  }
+  
 ];
 
 const expLogos = [
@@ -204,48 +207,21 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Sameer Selokar showed great dedication while building the project from scratch. His willingness to learn and take on new challenges made a real difference. He’s growing fast as a developer and it’s been great to see his progress.",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Sameer was a smooth experience. Even as he’s still building his skills, he takes feedback seriously and puts in the effort to deliver what’s needed. His passion for development is clearly visible.",
+   
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Sameer Selokar is committed and consistent. Although he’s still early in his journey, his hands-on approach and eagerness to build everything from the ground up is commendable. He’s definitely on the right path.",
   },
 ];
+
+
 
 const socialImgs = [
   {
@@ -254,9 +230,9 @@ const socialImgs = [
     imgPath: "/images/insta.png",
   },
   {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
+    name: "github",
+    url: "https://github.com/Sameer9823",
+    imgPath: "/images/github.png",
   },
   {
     name: "x",
@@ -265,7 +241,7 @@ const socialImgs = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/sameer-selokar-60435224b/",
     imgPath: "/images/linkedin.png",
   },
 ];

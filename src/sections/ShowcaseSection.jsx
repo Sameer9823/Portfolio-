@@ -44,42 +44,44 @@ function ShowcaseSection() {
     <section ref={sectionRef} id="work" className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
+
           <div className="first-project-wrapper" ref={project1Ref}>
+          <a href="https://ai-nexus-gamma.vercel.app/">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="dfghj" />
+              <img src="/images/AI.png" alt="dfghj" />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple With a Powerful, User-Friendly App
-                Called GoRide
-              </h2>
-              <p className="txet-white-50 md:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-                maxime dolorum itaque, atque odio temporibus maiores voluptas
-                asperiores, pariatur beatae natus ratione qui deleniti
-                repellendus soluta culpa vitae cum fugiat.
+              <h2>AI-Nexus — One Platform, Multiple Powerful AI Tools</h2>
+              <p className="text-white-50 md:text-xl">
+                I created <strong>AI-Nexus</strong>, a centralized platform
+                offering tools like AI Video Compression, Image Enhancement, GPT
+                Assistant, Content Detection, Text-to-Image generation, and an
+                AI-curated News Section — all in one user-friendly interface.
               </p>
             </div>
+          </a>
           </div>
 
+        
           <div className="project-list-wrapper overflow-hidden">
+
             <div className="project" ref={project2Ref}>
+            <a href="https://github.com/Sameer9823/Learning-Management-System">
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="lmp" />
+                <img src="/images/LMS.png" alt="lmp" />
               </div>
-              <h2>
-                On-Demand Rides Made Simple With a Powerful, User-Friendly App
-                Called GoRide
-              </h2>
+
+              <h2>Learning Management System (LMS).</h2>
+            </a>
             </div>
+
             <div className="project" ref={project3Ref}>
+            <a href="https://github.com/Sameer9823/Portfolio-">
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project3.png" alt="lmp" />
+                <img src="/images/port.png" alt="lmp" />
               </div>
-              <h2>
-                On-Demand Rides Made Simple With a Powerful, User-Friendly App
-                Called GoRide
-              </h2>
+              <h2>Portfolio: A Glimpse into My Code World</h2>
+            </a>
             </div>
           </div>
         </div>

@@ -33,7 +33,7 @@ function Hero() {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                I transform
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -52,13 +52,17 @@ function Hero() {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>into interactive, </h1>
+              <h1>
+                high-performing <br />
+                web experiences.
+              </h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Hi, I’m Sameer Selokar from India. I am a web developer passionate{" "}
+              <br />
+              about building impactful and user-friendly applications.
             </p>
 
             <Button
@@ -74,7 +78,7 @@ function Hero() {
           </div>
         </figure>
       </div>
-      <AnimatedCounter/>
+      <AnimatedCounter />
     </section>
   );
 }
