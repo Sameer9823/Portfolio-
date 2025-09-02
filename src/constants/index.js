@@ -162,20 +162,6 @@ const expCards = [
   
   {
     review:
-      "Sameer Selokar’s contributions as a Web Developer Intern have been exceptional. He approaches each challenge with a creative problem-solving mindset, ensuring smooth integration and delivering robust web solutions.",
-    name: "ICEICO Technologies Pvt Ltd", // update with the correct image path for Sameer
-    logoPath: "https://www.iceico.in/assets/img/Group%201.png", // update with the correct company logo path
-    title: "Web Developer Intern",
-    date: "July 2024 - December 2024",
-    responsibilities: [
-      "Assisted in the development of responsive and dynamic web applications using React.js and Node.js.",
-      "Collaborated with backend developers to ensure seamless API integration with the frontend.",
-      "Contributed to improving web application performance by optimizing both front-end and back-end code.",
-    ],
-  },
-  
-  {
-    review:
       "Sameer Selokar’s work on our Next.js applications has been outstanding. His remote contributions significantly enhanced our web performance, delivering high-quality solutions that align with our product goals.",
     name: "Knackline Bengaluru",
     logoPath: "/images/kn.png", // update with the correct company logo path
